@@ -1,0 +1,13 @@
+.cardhover:hover {
+  border: 2px solid rgb(61, 29, 29) !important;
+}
+
+.cardhover {
+  margin: 10px;
+}
+
+.border {
+  border: solid 1px grey;
+  margin-top: 10px;
+  margin-left: 15px;
+}
