@@ -1,3 +1,5 @@
+import { CardShoppingComponent } from './card-shopping/card-shopping.component';
+import { RegisterComponent } from './register/register.component';
 import { AdminComponent } from './admin/admin.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
@@ -14,7 +16,21 @@ const routes: Routes = [{
   path: 'admin',
   component: AdminComponent,
   data: {
-    title: 'store'
+    title: 'admin'
+  }
+},
+{
+  path: 'register',
+  component: RegisterComponent,
+  data: {
+    title: 'register'
+  }
+},
+{
+  path: 'cart-shop',
+  component: CardShoppingComponent,
+  data: {
+    title: 'car'
   }
 }];
 
